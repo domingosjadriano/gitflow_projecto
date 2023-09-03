@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizzing: border-box;
+}
+
+div.container{
+  width: 75%;
+  margin: 10 auto;
+}
+.container h2{
+  font-size: 30px;
+  color: gray;
+  font-weight: bold;
+}
+container p{
+  font-size: 12px;
+  background-color: blue;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+formulario{
+  width: 80%;
+}
+
+footer{
+  margin: 10 auto;
+  background-color: #ccc;
+  padding: 8px;
+  border-top: 2px solid #ccc;
+}
