@@ -7,22 +7,38 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-	<div class="container">
-		<h2>Seja muito Bem Vindo</h2>
+	
 
-		<p>A tecnologia sempre a avançar...</p>
+	<header>
+		<div class="container-central">
+			<section class="section-one">
+				<h2>Seja Bem Vindo</h2>
+				<p>	A tua tecnologia a distancia de um click. A tecnologia sempre a avançar...</p>
+			</section>
+		</div><!--container-central-->
+	</header>
 
-		<form>
-			<h2>Login</h2>
-			<input type="text" value="Usuario" name="usuario">
-			<input type="text" name="senha" value="Senha">
+	<section class="meu-form">
+		<div class="container-central">
+			<div class="container-form">
+				<div class="box-login">
+					<h2>Login</h2>
+					<p>Preencha os campos para entrar</p>
+					<form>
+						<input type="text" name="usuario" placeholder="Usuário" required>
+						<input type="text" name="password" placeholder="Palavra Passe" required>
+						
+						<input type="submit" name="enviar" value="ENVIAR">
 
-			<input type="submit" name="acao" value="Enviar">
-		</form>
-
+						<p>aguarde confirmação</p>
+					</form>
+				</div>
+			</div>
+		</div>
 		
-		<span>Voltar</span>
-	</div>
+	</section><!--meu-form-->
+
+	
 	<div class="sessao1">
 		<h2>Nova Sessao</h2>
 		<p>minha nova sessao criada para toda a familia</p>

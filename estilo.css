@@ -3,10 +3,83 @@
   padding: 0;
   box-sizzing: border-box;
 }
+.container-central{
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.section-one{
+  padding: 20px 0;
+  background-color: gray;
+}
+.section-one h2{
+  margin: 10px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.section-one p{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container-form{
+  border: 1px solid gray;
+  padding: 20px;
+}
+.box-login{
+  width: 100%;
+  max-width: 450px;
+  background-image: url('projeto-fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 10px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.box-login h2{
+  font-size: 25px;
+  color: white;
+  margin: 10px;
+  text-align: center;
+}
+.box-login p{
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+.box-login form{
+  margin: 20px auto;
+  padding: 40px 0;
+  background-color: rgba(238, 43, 79, 0.3);
+}
+form input[type=text]{
+  width: 360px;
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 8px;
+}
+form input[type=submit]{
+  width: 70%;
+  padding: 10px;
+  background-color: rgb(238, 43, 79);
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+}
 
 div.container{
   width: 75%;
   margin: 10 auto;
+  background-color: blue;
 }
 .container h2{
   font-size: 30px;
