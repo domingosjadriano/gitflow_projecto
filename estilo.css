@@ -102,25 +102,7 @@ form p{
   margin: 0 auto;
 }
 
-div.container{
-  width: 75%;
-  margin: 10 auto;
-  background-color: blue;
-}
-.container h2{
-  font-size: 30px;
-  color: gray;
-  font-weight: bold;
-}
-container p{
-  font-size: 12px;
-  background-color: blue;
-  margin: 10px auto;
-  border-radius: 10px;
-}
-formulario{
-  width: 80%;
-}
+
 
 footer{
   margin: 10 auto;
